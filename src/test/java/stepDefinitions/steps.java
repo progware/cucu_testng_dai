@@ -26,8 +26,8 @@ public class steps extends BaseClass {
 		String accessKey = "";
 		//replace url
 		String endpoint = "https://commerzbank.experitest.com/wd/hub";
-	    DesiredCapabilities dc = new DesiredCapabilities();
 
+		DesiredCapabilities dc = new DesiredCapabilities();
 		dc.setCapability("testName", scenario.getName());
 		dc.setCapability("accessKey", accessKey);
 		dc.setCapability("appiumVersion", "1.22.3");
